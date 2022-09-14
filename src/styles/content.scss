@@ -1,0 +1,52 @@
+.todo__content {
+  .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .input {
+    font-size: 14px;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #adb5bd;
+    border-radius: 4px;
+  }
+
+  .add {
+    padding: 3px;
+  }
+
+  .list {
+    .list-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .item {
+        padding: 0 10px;
+      }
+
+      .edit {
+        &:hover {
+          color: #008000;
+        }
+      }
+
+      .delete {
+        &:hover {
+          color: #da2c38;
+        }
+      }
+
+      .done {
+        &:hover {
+          color: #008000;
+        }
+      }
+    }
+  }
+}

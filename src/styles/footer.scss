@@ -1,0 +1,13 @@
+.todo__footer {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  .footer-delete {
+    color: #6c757d;
+    cursor: pointer;
+
+    &:hover {
+      color: #343a40;
+    }
+  }
+}
