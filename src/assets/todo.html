@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="todo">
+        <div class="folders">
+          <div class="item"></div>
+          <span class="material-symbols-outlined">
+            add_circle
+          </span>
+        </div>
+        <div class="todo__header">
+          <div class="name" contenteditable="true">Название папки</div>
+          <div class="change-color">Изменить цвет</div>
+        </div>
+
+        <div class="color">
+          <span class="material-symbols-outlined close">
+            close
+          </span>
+          <div class="color-list">
+            <div class="color-item color-390099"></div>
+            <div class="color-item color-ff0054"></div>
+            <div class="color-item color-9e0059"></div>
+            <div class="color-item color-ff5400"></div>
+            <div class="color-item color-ffbd00"></div>
+            <div class="color-item color-2b2d42"></div>
+            <div class="color-item color-0f4c5c"></div>
+            <div class="color-item color-00afb9"></div>
+            <div class="color-item color-f07167"></div>
+            <div class="color-item color-0081a7"></div>
+            <div class="color-item color-e36414"></div>
+            <div class="color-item color-003566"></div>
+            <div class="color-item color-ee6c4d"></div>
+            <div class="color-item color-15616d"></div>
+            <div class="color-item color-5a189a"></div>
+          </div>
+        </div>
+
+        <div class="todo__content">
+          <!-- input -->
+          <div class="container">
+            <input class="input" type="text" placeholder="Write something..." />
+            <button class="add button" type="button">
+              <div class="material-symbols-outlined">
+                add
+              </div>
+            </button>
+          </div>
+
+          <!-- todosList -->
+          <div class="list">
+            <div class="list-container">
+              <button class="done button">
+                <div class="material-symbols-outlined">
+                  done
+                </div>
+              </button>
+              <div class="item">Выучить React Router V6</div>
+              <button class="edit button" type="button">
+                <div class="material-symbols-outlined">
+                  edit
+                </div>
+              </button>
+              <button class="delete button" type="button">
+                <div class="material-symbols-outlined">
+                  delete
+                </div>
+              </button>
+            </div>
+
+            <div class="list-container">
+              <button class="done button">
+                <div class="material-symbols-outlined">
+                  done
+                </div>
+              </button>
+              <div class="item">Выучить Redux Toolkit</div>
+              <button class="edit button" type="button">
+                <div class="material-symbols-outlined">
+                  edit
+                </div>
+              </button>
+              <button class="delete button" type="button">
+                <div class="material-symbols-outlined">
+                  delete
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="todo__footer">
+          <div class="footer-delete">
+            Удалить папку
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

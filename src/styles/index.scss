@@ -1,0 +1,45 @@
+@import "./header.scss";
+@import "./content.scss";
+@import "./footer.scss";
+@import "./folders.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #dee2e6;
+}
+
+.todo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  min-height: 500px;
+  padding: 30px 40px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px #ced4da;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #f8f9fa;
+  color: #6c757d;
+
+  &:hover {
+    background: #dee2e6;
+    border-radius: 4px;
+  }
+}
